@@ -1,0 +1,138 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+}
+
+.container {
+  max-width: 1220px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #f58021;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.top__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top__logo {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 100px;
+  margin-right: 160px;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  text-transform: uppercase;
+  font-weight: 600;
+  line-height: 27px;
+}
+
+.top__menu-item {
+  margin-right: 49px;
+  transition: all 0.5s;
+}
+.top__menu-item:hover {
+  color: #00a092;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social__top-item {
+  margin-right: 30px;
+}
+
+.watch__online {
+  background-image: url(../images/bg-top.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  height: 1000px;
+  margin-bottom: 100px;
+}
+
+.top__title {
+  font-size: 82px;
+  line-height: 97px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #00a092;
+  width: 890px;
+  height: 280px;
+  margin-bottom: 30px;
+}
+
+.top__text {
+  width: 339px;
+  height: 76px;
+  line-height: 27px;
+  margin-bottom: 30px;
+}
+
+.button {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  height: 74px;
+  background-color: #f58021;
+  text-align: center;
+  padding: 26px 65px 26px 30px;
+  color: #fff;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+  margin-bottom: 100px;
+}
+
+.arrow__btn {
+  position: absolute;
+  right: 22px;
+}
+
+.welcome__content {
+  display: flex;
+  margin-bottom: 150px;
+}
+.welcome__content2 {
+  display: flex;
+}
+
+.welcome__img2 {
+  order: -1;
+}
+.welcome__title {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 66px;
+  color: #00a092;
+  text-transform: uppercase;
+}
