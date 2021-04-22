@@ -130,9 +130,34 @@ li {
   order: -1;
 }
 .welcome__title {
-  font-size: 64px;
+  font-size: 54px;
   font-weight: 600;
   line-height: 66px;
   color: #00a092;
   text-transform: uppercase;
+  margin-top: 68px;
+  width: 523px;
+  margin-bottom: 50px;
+}
+
+.welcome__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  width: 560px;
+  height: 213px;
+}
+
+.welcome__img,
+.welcome__img2 {
+  width: 800px;
+  height: 531px;
+}
+
+.welcome__img2 {
+  margin-right: 40px;
+}
+
+.welcome__img {
+  margin-left: 40px;
 }
